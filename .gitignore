@@ -1,0 +1,38 @@
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== 虚拟环境 =====
+.venv/
+venv/
+env/
+
+# ===== 数据集 =====
+# 按实际目录名称修改
+/bike_uci/
+/house_tiny.csv
+
+
+# 如果数据集散落在其他位置，可以单独忽略
+# /chapter4/mnist_data/
+# /chapter5/train_images.zip
+
+# ===== PyTorch 模型权重 =====
+*.pth
+*.pt
+*.ckpt
+
+# ===== 临时文件 =====
+*.log
+.DS_Store
+Thumbs.db
+
+# ===== 私密配置 =====
+.env
+.env.*
+!.env.example
