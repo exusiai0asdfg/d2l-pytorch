@@ -16,7 +16,7 @@ env/
 # 按实际目录名称修改
 /bike_uci/
 /house_tiny.csv
-/data
+/data/
 
 # 如果数据集散落在其他位置，可以单独忽略
 # /chapter4/mnist_data/
